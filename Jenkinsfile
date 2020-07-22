@@ -1,5 +1,5 @@
 node{
-  stagw('SCM Checkout'){
+  stage('SCM Checkout'){
     git 'https://github.com/naveenchacko1/example-voting-app'
   }
   stage('Compile-Package'){
